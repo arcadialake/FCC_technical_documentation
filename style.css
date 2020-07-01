@@ -1,0 +1,138 @@
+html, body {
+  min-width: 290px;
+  background-color: #fff;
+  font-family: Alegreya, sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+#navbar {
+  position: fixed;
+  min-width: 290px;
+  top: 0px;
+  left:0px;
+  width:300px;
+  height:100%;
+  border-right: 10px solid black;
+  background-image: url("https://img.freepik.com/free-photo/old-wooden-texture-background-vintage_55716-1138.jpg?size=626&ext=jpg");
+  background-repeat: repeat-y;
+}
+
+header {
+  color: #ffd700;
+  font-size: 40px;
+  margin: 10px;
+  text-align: center;
+  font-family: Alegreya;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 25px;
+}
+
+#main-doc header {
+  color: black;
+  font-family: Alegreya;
+  font-size: 1.8em;
+  font-weight: thin;
+  text-align: center;
+  margin: 0px;
+  text-transform: none;
+  text-decoration: underline;
+}
+
+#navbar ul {
+  height: 88%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+#navbar li{
+  color: black;
+  list-style: none;
+  border: 2px solid black;
+  padding: 8px;
+  padding-left: 45px;
+  position: relative;
+  left: -50px;
+  width: 100%;
+}
+
+#navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+
+#main-doc {
+  position: absolute;
+  margin-left: 310px;
+  padding: 20px;
+  margin-bottom: 110px;
+  background-image: url("https://geekandsundry.com/wp-content/uploads/2017/04/Catan-FI-970x545.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 990px 520px;
+  background-position: right top;
+
+}
+
+section article {
+  margin: 15px;
+  font-size: 1.10em;
+  text-align: justify;
+}
+
+#catanoverview {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#game_introduction iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#dice_probability {
+  width: 25%;
+}
+
+.expansions img {
+  width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.expansions h2 {
+  text-align: center;
+  padding-right: 10px;
+}
+
+.grid_container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+#seafarers {
+  grid-column-start: 1;
+}
+
+.expansions {
+  text-align: justify;
+}
+
+.expansions p {
+  padding: 15px;
+}
+
+@media screen and (max-width: 600px) {
+  .expansion {
+    width: 100%;
+  }
+}
